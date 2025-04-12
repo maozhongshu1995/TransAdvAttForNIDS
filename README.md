@@ -9,7 +9,9 @@ Still under review…
 
 
 > - This repository does not yet include the models' training details or the attack algorithms' implementation. If the paper is accepted and published, we commit to releasing all training details and attack algorithm implementations.
-> - The results in the papers that can be reproduced now are: Section 5.2, 5.3, 5.4, 5.5, and 5.7. All codes and instructions will be completed before April 20th.
+> - The results in the papers that can be reproduced now are: Section 5.2, 5.3, and 5.7. 
+>   - It may also include parts 5.4 and 5.5, but due to the large amount of data, the upload speed cannot be guaranteed; we can only do our best to upload it.
+>   - All codes and instructions will be completed before April 20th.
 
 # Introduction
 
