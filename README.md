@@ -28,7 +28,7 @@ TransAdvAttForNIDS/
 │       ├── adv_train_with_SPTS/     # Adversarial training with SPTS
 │       ├── normal_adv_train/        # Normal adversarial training
 │       └── normal_train/            # Normal train
-├── training_model/                  # Code for training NIDS models
+├── training_model/                  # Codes for training NIDS models
 ├── utils/                           # Utility functions and helper scripts
 ```
 To reproduce the experimental results presented in the paper, follow the instructions in **Preliminaries** and **Reproducing Results in Our Paper**. To customize the training of networks and generate AAT, refer to the instructions in **Details of Training Models** and **Generating AAT**. For customizing adversarial training, follow the instructions in **Details of Adversarial Training**. 
