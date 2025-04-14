@@ -47,11 +47,11 @@ If you would like to use the datasets we provide, the following environment setu
 
 If you would like to process the dataset by yourself, the following additional environment setup is required:
 - Scapy 2.6.1
-- CICFlowMeter
+- [CICFlowMeter](https://www.unb.ca/cic/research/applications.html#CICFlowMeter)
 
 ## 2.2 Dataset, AAT, and Pre-trained models
 1. We provide the datasets, AAT, and pre-trained models used to reproduce the results in the paper. These can be downloaded from XXX. **After downloading, replace the `storage` directory in the repository with the downloaded `storage`**.
-2. If you would like to download the original PCAP files for the datasets, please refer to CIC-IDS-2018 and TON_IoT.
+2. If you would like to download the original PCAP files for the datasets, please refer to [CIC-IDS-2018](https://www.unb.ca/cic/datasets/ids-2018.html) and [TON_IoT](https://research.unsw.edu.au/projects/toniot-datasets).
 
 # 3 Reproducing results in our paper
 1. Before reproducing the experimental results, ensure that the directory structure under `storage` matches the one presented in the **Introduction**. Then, navigate to the `reproduce_experiments_results` directory:
