@@ -45,7 +45,7 @@ If you would like to use the datasets we provide, the following environment setu
 - Pandas 2.2.3
 - Numpy 2.0.2
 
-If you would like to use a custom dataset, the following additional environment setup is required:
+If you would like to process the dataset by yourself, the following additional environment setup is required:
 - Scapy 2.6.1
 - CICFlowMeter
 
