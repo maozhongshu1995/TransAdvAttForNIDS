@@ -58,7 +58,7 @@ If you would like to process the dataset by yourself, the following additional e
    ```
    cd reproduce_experiments_results
    ```
-2. All scripts in the `reproduce_experiments_results` directory are named according to their corresponding subsection numbers. For example, `5_2_eval_NIDSs_performance.py` is used to reproduce the results of Section 5.2 in the paper. You can run the script with the following command:
+2. All scripts in the `reproduce_experiments_results` directory are named according to their corresponding subsection numbers. For example, `5_2_eval_NIDSs_performance.py` is used to reproduce the results of Section 5.2 in the paper. You can run the script with the following commands:
    ```
    python 5_2_eval_NIDSs_performance.py
    ```
