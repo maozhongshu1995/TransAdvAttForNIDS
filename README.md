@@ -50,7 +50,9 @@ If you would like to process the dataset by yourself, the following additional e
 - [CICFlowMeter](https://www.unb.ca/cic/research/applications.html#CICFlowMeter)
 
 ## 2.2 Dataset, AAT, and Pre-trained models
-1. We provide the datasets, AAT, and pre-trained models used to reproduce the results in the paper. These can be downloaded from XXX. **After downloading, replace the `storage` directory in the repository with the downloaded `storage`**.
+1. We provide the datasets, AAT, and pre-trained models used to reproduce the results in the paper. You can download them [here](https://doi.org/10.5281/zenodo.15212457). After downloading, please follow the two steps below:
+   1. Extract the `.rar` file to obtain the `storage` directory.
+   2. Replace the existing `storage` directory in the repository with the extracted one.
 2. If you would like to download the original PCAP files for the datasets, please refer to [CIC-IDS-2018](https://www.unb.ca/cic/datasets/ids-2018.html) and [TON_IoT](https://research.unsw.edu.au/projects/toniot-datasets).
 
 # 3 Reproducing results in our paper
