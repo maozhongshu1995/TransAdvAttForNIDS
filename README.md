@@ -12,7 +12,7 @@ Still under review…
 > - The results in the papers that can be reproduced now are: Section 5.2, 5.3, 5.4, 5.5 and 5.7. 
 
 # 1 Introduction
-Our work focuses on the generation method of AAT in black-box scenarios and proposes SPTS and DGM. This repository contains all the code necessary to **reproduce the experiments presented in the paper**, as well as methods for **custom network training and generating adversarial attack traffic (AAT)**. The repository structure and a brief overview of each folder are provided below:
+Our work focuses on the generation method of adversarial attack traffic (AAT) in black-box scenarios and proposes SPTS and DGM. This repository contains all the code necessary to **reproduce the experiments presented in the paper**, as well as methods for **custom network training and generating AAT**. The repository structure and a brief overview of each folder are provided below:
 ```
 TransAdvAttForNIDS/
 ├── generating_AAT/                  # Code for generating AAT
