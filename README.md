@@ -33,7 +33,7 @@ In light of the considerations above, this README is organized as follows: Secti
 
 4. The pre-trained models and pre-processed dataset can be downloaded from the following 4 addresses: (all models and datasets will be uploaded within a few hours).
 
-   1. [https://zenodo.org/records/15593777](https://zenodo.org/records/15593777) :The dataset contains sensitive information, and access will be granted upon request.
+   1. [Partial dataset](https://zenodo.org/records/15593777?token=eyJhbGciOiJIUzUxMiIsImlhdCI6MTc0OTA1NDEyNywiZXhwIjoxNzUwMzc3NTk5fQ.eyJpZCI6ImVhYWU1NTgxLTkwZmItNDExZC1iMzg3LTk2NDkxYWRkNDFlMCIsImRhdGEiOnt9LCJyYW5kb20iOiI2NGU0ZjNkMGUwNjgxMWY4OGFmMjU4ZDM4OWQ4YjljOCJ9.-6kLktBQLVBO14lDcCb3GwshVLcz85GCjZDjkElAyAowGLHZApm9E8zQvCfBENVRIllHi6fKccw5Uoq2axvvhQ)
    2. link2
    3. link3
    4. link4
