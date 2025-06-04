@@ -31,7 +31,15 @@ In light of the considerations above, this README is organized as follows: Secti
     - [TON_IoT](https://research.unsw.edu.au/projects/toniot-datasets)
 3. [CICFlowMeter (CFM)](https://github.com/UNBCIC/CICFlowMeter): If CICFlowMeter is not installed correctly, the experiments in Section 6 (**Mapping AAT to practical packets**) cannot be executed. 
 
-The pre-trained models and pre-processed dataset can be downloaded here (all models and datasets will be uploaded within a few hours). There are 11 archive files in total and extract each one individually. Note that **5_4_4.part1.rar** and **5_4_4.part2.rar** belong to the same archive; you can extract them with: `unrar x 5_4_4.rar`. Create a new, empty directory anywhere (you can choose any name), then move the 10 extracted folders into this directory. Then, open **TransAdvAttForNIDS/utils.py** and update the **STORAGE_DIR** variable (line 9) to the path of that new directory. Within the **STORAGE_DIR** directory, create an empty folder named **adv_pcap**.
+4. The pre-trained models and pre-processed dataset can be downloaded from the following 4 addresses: (all models and datasets will be uploaded within a few hours).
+
+   1. [https://zenodo.org/records/15593777](https://zenodo.org/records/15593777) :The dataset contains sensitive information, and access will be granted upon request.
+   2. link2
+   3. link3
+   4. link4
+   5. There are 11 archive files in total and extract each one individually. Note that **5_4_4.part1.rar** and **5_4_4.part2.rar** belong to the same archive; you can extract them with: `unrar x 5_4_4.rar`. 
+   6. After extraction, create a new, empty directory anywhere (you can choose any name), then move the 10 extracted folders into this directory. Then, open **TransAdvAttForNIDS/utils.py** and update the **STORAGE_DIR** variable (line 9) to the path of that new directory. 
+   7. Within the **STORAGE_DIR** directory, create an empty folder named **adv_pcap**.
 
 Before running the code, create three empty directories—named `output`, `output2`, and `output3`—inside the `TransAdvAttForNIDS/` directory. These empty directories will store intermediate files generated during execution. 
 
