@@ -31,7 +31,7 @@ In light of the considerations above, this README is organized as follows: Secti
     - TON_IoT
 3. CICFlowMeter (CFM)
 
-If CICFlowMeter is not installed correctly, the experiments in Section 6 (Mapping AAT to practical packets) cannot be executed. The dataset is available for download here. After downloading, extract all files into a newly created directory called `storage`. Be sure to update the **STORAGE_DIR** parameter in TransAdvAttForNIDS/utils.py (line 9) to the path of the `storage` directory. Otherwise, none of the subsequent experiments will run.
+If CICFlowMeter is not installed correctly, the experiments in Section 6 (Mapping AAT to practical packets) cannot be executed. The pre-trained models and pre-processed dataset can be downloaded here. After downloading, extract all files into a newly created directory called `storage`. Be sure to update the **STORAGE_DIR** parameter in TransAdvAttForNIDS/utils.py (line 9) to the path of the `storage` directory. Otherwise, none of the subsequent experiments will run.
 
 Before running the code, create three empty directories—named `output`, `output2`, and `output3`—inside the `TransAdvAttForNIDS/` directory. These empty directories will store intermediate files generated during execution.
 
