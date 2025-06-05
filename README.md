@@ -238,5 +238,5 @@ We also supply dataset-preprocessing scripts located in the `TransAdvAttForNIDS/
 3. The `sampling_training_dataset.py` script performs random oversampling on the training dataset.
 4. The script `build_input_features.py` extracts the model’s input features.
 5. The `build_minmax.py` script extracts the maximum and minimum values from the training dataset; these values are then used for normalization.
-6. Please note that the above scripts cannot be run directly. To execute them, you must specify the input and output file paths within each script. Their code and logic are straightforward, so no further explanation is provided.
-7. For the TON_IoT, we recommend using the pre‐labeled CSV files we provide, since extracting features from the raw PCAP files and labeling them with CFM is not trivial.
+6. Please note that the above scripts cannot be run directly. To execute them, you must specify the input and output file paths within each script. Their code and logic are straightforward, so no further explanation is needed.
+7. For the TON_IoT, we recommend using the pre‐labeled CSV files we provide, since extracting features from the raw PCAP files with CFM and labeling them are not trivial.
