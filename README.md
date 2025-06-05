@@ -31,17 +31,17 @@ In light of the considerations above, this README is organized as follows: Secti
     - [TON_IoT](https://research.unsw.edu.au/projects/toniot-datasets)
 3. [CICFlowMeter (CFM)](https://github.com/UNBCIC/CICFlowMeter): If CICFlowMeter is not installed correctly, the experiments in Section 6 (**Mapping AAT to practical packets**) cannot be executed. 
 
-4. The pre-trained models and pre-processed dataset can be downloaded from the following 4 addresses: (all models and datasets will be uploaded within a few hours).
+4. The pre-trained models and pre-processed dataset can be downloaded from the following 4 addresses:
 
-   1. address_1 (need updating)
+   1. [address_1](https://zenodo.org/records/15597259?token=eyJhbGciOiJIUzUxMiIsImlhdCI6MTc0OTA4ODM2OCwiZXhwIjoxNzUwMzc3NTk5fQ.eyJpZCI6IjhkMDU2MWY1LTVjY2UtNGZiNS04YmZlLTljMDVjN2VjYWViYyIsImRhdGEiOnt9LCJyYW5kb20iOiI5M2VhNzRiYTMxMmVjNjc0NzJhNDdmMmYyOGMzOGI5NiJ9.sa4Adqt3IlYsEnRv5rJvrIB8njcTLhjqScRaH9KsPG7EMZVc_pknRVRCWMJBIU5nrhausXXoilXYDIHV9oWT3w) (updated)
    2. [address_2](https://drive.google.com/drive/folders/1Ne3s40AgGe0H6tMP0gug-tsCc_zw7qpb?usp=sharing)
    3. [address_3](https://drive.google.com/drive/folders/1za3qA1g1WNlkt5MO-PDICDARrKjtZZqr?usp=sharing)
    4. [address_4](https://drive.google.com/drive/folders/1HYvxwKOdRaHRy9dmaU7goXonHNyZAVo9?usp=sharing)
    5. There are 11 archive files in total and extract each one individually. Note that **5_4_4.part1.rar** and **5_4_4.part2.rar** belong to the same archive; you can extract them with: `unrar x 5_4_4.rar`. 
    6. After extraction, create a new, empty directory anywhere (you can choose any name), then move the 10 extracted folders into this directory. Then, open **TransAdvAttForNIDS/utils.py** and update the **STORAGE_DIR** variable (line 9) to the path of that new directory. 
    7. Within the **STORAGE_DIR** directory, create an empty folder named **adv_pcap**.
-
-Before running the code, create three empty directories—named `output`, `output2`, and `output3`—inside the `TransAdvAttForNIDS/` directory. These empty directories will store intermediate files generated during execution. 
+   8. Before running the code, create three empty directories—named `output`, `output2`, and `output3`—inside the `TransAdvAttForNIDS/` directory. These empty directories will store intermediate files generated during execution.
+   9. We provide the randomly oversampled TON_IoT datasets for both the target NIDSs and the surrogate models. However, the CIC-IDS-2018 oversampled files are not included. If you wish to train on CIC-IDS-2018, be sure to apply random oversampling to **TransAdvForNIDS/dataset/ids18_train_s.csv** and **TransAdvForNIDS/dataset/ids18_train_t.csv** using the script at **TransAdvForNIDS/dataset_preprocess/sampling_training_dataset.py** (see Section 7, Supplementary Notes). The oversampled outputs need to be saved in the **STORAGE_DIR/dataset** directory as **ids18_sam_train_s.csv** and **ids18_sam_train_t.csv**. 
 
 # 3 Reproducing the manuscript’s results
 
