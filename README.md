@@ -33,10 +33,10 @@ In light of the considerations above, this README is organized as follows: Secti
 
 4. The pre-trained models and pre-processed dataset can be downloaded from the following 4 addresses: (all models and datasets will be uploaded within a few hours).
 
-   1. [Partial dataset](https://zenodo.org/records/15593777?token=eyJhbGciOiJIUzUxMiIsImlhdCI6MTc0OTA1NDEyNywiZXhwIjoxNzUwMzc3NTk5fQ.eyJpZCI6ImVhYWU1NTgxLTkwZmItNDExZC1iMzg3LTk2NDkxYWRkNDFlMCIsImRhdGEiOnt9LCJyYW5kb20iOiI2NGU0ZjNkMGUwNjgxMWY4OGFmMjU4ZDM4OWQ4YjljOCJ9.-6kLktBQLVBO14lDcCb3GwshVLcz85GCjZDjkElAyAowGLHZApm9E8zQvCfBENVRIllHi6fKccw5Uoq2axvvhQ)
-   2. link2
-   3. link3
-   4. link4
+   1. address_1 (need updating)
+   2. [address_2](https://drive.google.com/drive/folders/1Ne3s40AgGe0H6tMP0gug-tsCc_zw7qpb?usp=sharing)
+   3. [address_3](https://drive.google.com/drive/folders/1za3qA1g1WNlkt5MO-PDICDARrKjtZZqr?usp=sharing)
+   4. [address_4](https://drive.google.com/drive/folders/1HYvxwKOdRaHRy9dmaU7goXonHNyZAVo9?usp=sharing)
    5. There are 11 archive files in total and extract each one individually. Note that **5_4_4.part1.rar** and **5_4_4.part2.rar** belong to the same archive; you can extract them with: `unrar x 5_4_4.rar`. 
    6. After extraction, create a new, empty directory anywhere (you can choose any name), then move the 10 extracted folders into this directory. Then, open **TransAdvAttForNIDS/utils.py** and update the **STORAGE_DIR** variable (line 9) to the path of that new directory. 
    7. Within the **STORAGE_DIR** directory, create an empty folder named **adv_pcap**.
