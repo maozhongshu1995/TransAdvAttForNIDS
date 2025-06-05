@@ -30,6 +30,10 @@ In light of the considerations above, this README is organized as follows: Secti
     - [CIC-IDS-2018](https://www.unb.ca/cic/datasets/ids-2018.html)
     - [TON_IoT](https://research.unsw.edu.au/projects/toniot-datasets)
 3. [CICFlowMeter (CFM)](https://github.com/UNBCIC/CICFlowMeter): If CICFlowMeter is not installed correctly, the experiments in Section 6 (**Mapping AAT to practical packets**) cannot be executed. 
+   
+   1. After installing CFM, you need to update the CFM path in three scripts: **TransAdvForNIDS/map_AAT_to_pkts/0_built_features_with_cfm_over_raw_att_pcap.py**, **TransAdvForNIDS/map_AAT_to_pkts/4_re-extract_features_with_cfm.py**, and **TransAdvForNIDS/TANTRA/1_re-extract_features_with_cfm.py**. The relevant variable is `fp_cfm`.
+   
+   2. Running CFM requires administrator privileges, so any script invoking CFM must run as root. However, we found that simply using `sudo python script.py` does not work. We therefore offer two alternative methods: first, embed the sudo password directly in the script’s `subprocess.run` command (at the expense of security); second, configure CFM to “run under sudo without requiring a password”.
 
 4. The pre-trained models and pre-processed dataset can be downloaded from the following 4 addresses:
 
